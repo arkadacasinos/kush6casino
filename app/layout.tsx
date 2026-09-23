@@ -14,7 +14,10 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { colorScheme: 'dark', themeColor: '#11100e', userScalable: true }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ru" className="bg-background"><head><link rel="canonical" href="https://kush6casino.vercel.app/" />
+  return <html lang="ru" className="bg-background">
+    <head>
+      <meta name="yandex-verification" content="865ad4cf0142a805" />
+      <link rel="canonical" href="https://kush6casino.vercel.app/" />
     
     <script
   dangerouslySetInnerHTML={{
